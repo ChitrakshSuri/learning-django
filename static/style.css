@@ -1,9 +1,58 @@
-body{
+/* Page basics */
+body {
     background-color: beige;
     color: black;
+    font-family: "Segoe UI", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-    text-align: center;
-    font-size: 2em;
+/* Container to center content */
+.container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
 }
+
+/* Heading style */
+h1 {
+    text-align: center;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+/* Paragraph style */
+p {
+    line-height: 1.6;
+    font-size: 1.1em;
+    text-align: center;
+}
+
+/* Navigation bar */
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    border-bottom: 2px solid transparent;
+    padding-bottom: 3px;
+    transition: 0.2s ease-in-out;
+}
+
+/* Hover effect for links */
+nav a:hover {
+    border-bottom: 2px solid black;
+}
+
+/* Optional: style for the active page */
+/* 
+nav a.active {
+    border-bottom: 2px solid black;
+    font-weight: bold;
+}
+*/
